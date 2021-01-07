@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #064E3B;
-    --color-mid: #D1FAE5;
+    --color-primary: #1E3A8A;
+    --color-mid: #111827;
     --color-heading: white;
 }
 textarea{
@@ -10,6 +10,7 @@ textarea{
     margin:5px auto;
     border-width: 2px;
     border-color: var(--color-primary);
+    border-radius: 5px;
 }
 
 
@@ -18,6 +19,9 @@ textarea{
     text-align: center;
     color: var(--color-heading);
     padding:5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
 }
 body{
     background-color: var(--color-mid);
@@ -41,4 +45,5 @@ p{
     justify-content: center;
     align-items: center;
     color:var(--color-heading);
+       
 }
