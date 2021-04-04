@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 :root{
-    --color-primary: #1E3A8A;
-    --color-mid: #111827;
+    --color-primary: #34495e;
+    --color-mid: #bdc3c7;
     --color-heading: white;
 }
 textarea{
@@ -11,6 +12,8 @@ textarea{
     border-width: 2px;
     border-color: var(--color-primary);
     border-radius: 5px;
+    font-size: 1.5rem;
+    
 }
 
 
@@ -18,13 +21,14 @@ textarea{
     background-color: var(--color-primary);
     text-align: center;
     color: var(--color-heading);
-    padding:5px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    
     
 }
 body{
     background-color: var(--color-mid);
+    font-family: 'Courgette', cursive;
 }
 #btnTranslate{
     display:block;
@@ -34,6 +38,15 @@ body{
     border-width: 3px;
     border-color: var(--color-primary);
     font-weight: bold;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+#btnTranslate:hover{
+    background-color: #2980b9;
+    cursor: pointer;
+    color: var(--color-heading);
 }
 
 p{
@@ -45,5 +58,6 @@ p{
     justify-content: center;
     align-items: center;
     color:var(--color-heading);
+    margin-top: 2rem;
        
 }
